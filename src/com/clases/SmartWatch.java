@@ -5,6 +5,7 @@ public class SmartWatch extends SmartDevice{
     String correa;
 
     public SmartWatch() {
+        super();
     }
 
     public SmartWatch(String modelo, String marca, String year, int memoria, int ram, String pantalla,boolean sensorPulso,String correa) {

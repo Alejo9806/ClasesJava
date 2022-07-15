@@ -7,6 +7,7 @@ public class SmartPhone extends SmartDevice{
     boolean huellaDigital;
 
     public SmartPhone() {
+        super();
     }
 
     public SmartPhone(String modelo, String marca, String year, int memoria, int ram, String pantalla, double pixeles, boolean camara, boolean huellaDigital) {
